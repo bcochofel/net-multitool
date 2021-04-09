@@ -1,21 +1,18 @@
-FROM debian:buster
+FROM alpine:3.13
 LABEL maintainer="Bruno Cochofel <bruno.cochofel@gmail.com>"
 
-RUN apt update && apt install -y \
-    traceroute \
-    curl \
-    dnsutils \
-    jq \
-    nmap \
+RUN apk update && apk add --no-cache \
+    tcptraceroute \
     net-tools \
+    curl \
     socat \
     openssl \
-    && rm -rf /var/lib/apt/lists/*
+    jq \
+    nmap \
+    bind-tools
 
-RUN groupadd --gid 5000 debian \
-    && useradd --home-dir /home/debian --create-home --uid 5000 \
-    --gid 5000 --shell /bin/sh --skel /dev/null debian
+RUN addgroup -g 5000 -S alpine && adduser -S alpine -u 5000 -G alpine
 
-USER debian
+USER alpine
 
-CMD ["/bin/bash"]
+CMD ["/bin/sh"]

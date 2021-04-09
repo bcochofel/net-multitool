@@ -1,0 +1,19 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: net-multitool
+spec:
+  securityContext:
+    runAsUser: 5000
+    runAsGroup: 5000
+  containers:
+  - name: net-multitool
+    image: bcochofel/net-multitool:0.1.0
+    command:
+      - sleep
+      - "3600"
+    imagePullPolicy: IfNotPresent
+    securityContext:
+      allowPrivilegeEscalation: false
+  restartPolicy: Always
