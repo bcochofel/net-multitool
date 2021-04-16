@@ -3,10 +3,19 @@
 ## [Unreleased]
 
 
+<a name="1.4.0"></a>
+## [1.4.0] - 2021-04-16
+### Feat
+- helm chart
+
+
 <a name="1.3.0"></a>
 ## [1.3.0] - 2021-04-11
 ### Feat
 - docker build and push
+
+### Pull Requests
+- Merge pull request [#3](https://github.com/bcochofel/terraform-azurerm-aks/issues/3) from bcochofel/build_docker
 
 
 <a name="1.2.0"></a>
@@ -35,7 +44,8 @@
 - Merge pull request [#1](https://github.com/bcochofel/terraform-azurerm-aks/issues/1) from bcochofel/first_release
 
 
-[Unreleased]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.4.0...HEAD
+[1.4.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.3.0...1.4.0
 [1.3.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.0.0...1.1.0
