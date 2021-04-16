@@ -46,3 +46,7 @@ jobs:
         with:
           push: true
           tags: bcochofel/net-multitool:${{ steps.gitversion.outputs.majorMinorPatch }}
+      - name: Publish Helm charts
+        uses: stefanprodan/helm-gh-pages@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
