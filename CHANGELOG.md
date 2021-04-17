@@ -3,10 +3,25 @@
 ## [Unreleased]
 
 
+<a name="1.6.0"></a>
+## [1.6.0] - 2021-04-17
+### Feat
+- remove helm chart
+
+
+<a name="1.5.0"></a>
+## [1.5.0] - 2021-04-16
+### Feat
+- helm chart skeleton
+
+
 <a name="1.4.0"></a>
 ## [1.4.0] - 2021-04-16
 ### Feat
 - helm chart
+
+### Pull Requests
+- Merge pull request [#4](https://github.com/bcochofel/terraform-azurerm-aks/issues/4) from bcochofel/gh-pages
 
 
 <a name="1.3.0"></a>
@@ -44,7 +59,9 @@
 - Merge pull request [#1](https://github.com/bcochofel/terraform-azurerm-aks/issues/1) from bcochofel/first_release
 
 
-[Unreleased]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.4.0...HEAD
+[Unreleased]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.6.0...HEAD
+[1.6.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.5.0...1.6.0
+[1.5.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.4.0...1.5.0
 [1.4.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.3.0...1.4.0
 [1.3.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.1.0...1.2.0
