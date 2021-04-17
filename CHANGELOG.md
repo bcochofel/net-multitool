@@ -3,10 +3,19 @@
 ## [Unreleased]
 
 
+<a name="1.7.0"></a>
+## [1.7.0] - 2021-04-17
+### Feat
+- trigger only for Dockerfile
+
+
 <a name="1.6.0"></a>
 ## [1.6.0] - 2021-04-17
 ### Feat
 - remove helm chart
+
+### Pull Requests
+- Merge pull request [#6](https://github.com/bcochofel/terraform-azurerm-aks/issues/6) from bcochofel:remove_gh_pages
 
 
 <a name="1.5.0"></a>
@@ -59,7 +68,8 @@
 - Merge pull request [#1](https://github.com/bcochofel/terraform-azurerm-aks/issues/1) from bcochofel/first_release
 
 
-[Unreleased]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.6.0...HEAD
+[Unreleased]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.7.0...HEAD
+[1.7.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.6.0...1.7.0
 [1.6.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.5.0...1.6.0
 [1.5.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.4.0...1.5.0
 [1.4.0]: https://github.com/bcochofel/terraform-azurerm-aks/compare/1.3.0...1.4.0
