@@ -9,7 +9,7 @@ spec:
     runAsGroup: 5000
   containers:
   - name: net-multitool
-    image: bcochofel/net-multitool:1.0.0
+    image: bcochofel/net-multitool:1.6.0
     command:
       - sleep
       - "3600"
